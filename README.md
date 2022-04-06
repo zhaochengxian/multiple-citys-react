@@ -1,7 +1,11 @@
 # multiple-citys-react
 
 This is multiple-citys-react components，Support multiple selection components of provinces and cities（支持省市区多选组件）
+## node version
+```
+ had better > 16 
 
+```
 ## how to use
 
 ```
