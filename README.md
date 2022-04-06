@@ -30,7 +30,7 @@ import MultipleCitysReact from "@banyinbanying/multiple-citys-react";
 
 ### 示例图片
 
-![image](https://github.com/zhaochengxian/cityTable/blob/16250a33d0dec558739b20ebf475d53008e33f93/examples/assets/demo-img.jpeg)
+![image](https://github.com/zhaochengxian/multiple-citys-react/blob/72b1774fdd64c1496b0f50d53f6940508f5c8090/example/assets/1.png)
 
 ### Props
 
