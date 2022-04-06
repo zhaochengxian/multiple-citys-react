@@ -73,11 +73,11 @@ The component provides the following variables
                         parentId: 110100,
                         label: '延庆区',
                         lay: 3,
-                        isLeaf: true,
-                    },
-                ],
-            },
-        ],
+                        isLeaf: true
+                    }
+                ]
+            }
+        ]
     }
 
 ```
