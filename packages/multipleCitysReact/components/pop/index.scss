@@ -1,0 +1,64 @@
+.pop {
+  position: absolute;
+  height: 326px;
+  padding-top: 6px;
+  background-color: white;
+  left: 0;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014,
+    0 9px 28px 8px #0000000d;
+  z-index: 1;
+
+  &-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  &-content {
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    columns: var(--column);
+    column-gap: 0;
+    overflow: hidden;
+  }
+  &-scroll {
+    width: 150px;
+    height: 100%;
+    overflow-y: scroll;
+    .flex {
+      flex: 1;
+      align-items: center;
+      display: flex;
+    }
+    .line-1 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 50px;
+      display: inline-block;
+    }
+    &-item {
+      padding: 5px 15px;
+      align-items: center;
+      display: flex;
+      &-box {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      &-title {
+        cursor: pointer;
+      }
+      &-more {
+        width: 14px;
+        height: 14px;
+        transform: rotate(270deg);
+      }
+    }
+  }
+  &-scroll + &-scroll {
+    border-left: solid thin #f1f1f1;
+  }
+}

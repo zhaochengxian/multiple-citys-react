@@ -1,0 +1,44 @@
+.badge {
+    padding: 5px 0;
+    flex-wrap: wrap;
+    display: flex;
+    &-item-wrapper {
+        position: relative;
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 26px;
+        color: white;
+    }
+    &-item {
+        display: inline-block;
+        margin: 2px 10px 2px 0;
+        padding: 0 10px;
+
+        &-primary {
+            color: #1890ff;
+            border: solid thin #e6f7ff;
+            background-color: #e6f7ff;
+        }
+        &-danger {
+            color: #bc1414;
+            border: solid thin #eeaeaf;
+            background-color: #eebdbe;
+        }
+        &-default {
+            color: #333;
+            border: solid thin #ccc;
+            background-color: #f5f5f5;
+        }
+        &-close {
+            display: none;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: -5px;
+            right: 5px;
+        }
+    }
+    &-item-wrapper:hover > &-item-close {
+        display: block;
+    }
+}

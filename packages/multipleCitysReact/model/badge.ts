@@ -1,0 +1,1 @@
+export type BadgeStyle = 'primary' | 'danger' | 'default'
